@@ -4,17 +4,14 @@ import React from 'react'
 const TeamCard = () => {
     return (
         <div className='bg-[#EEE]'>
-
-            <div className="max-w-[95%] mx-auto px-4 py-10 sm:px-6 lg:px-8 lg:py-14">
-                <div className="max-w-2xl mx-auto text-center mb-10 lg:mb-14">
+            <div className="max-w-[95%] mx-auto py-10 sm:px-6 lg:px-0 lg:py-14">
+                <div className="max-w-xl mx-auto text-center mb-10 lg:mb-14">
                     <h2 className="text-gray-700 md:text-2xl text-xl font-roboto font-bold">Meet Our Leaders</h2>
                     <p className="my-1 text-black text-[1rem]">Lorem ipsum dolor sit amet consectetur. Faucibus blandit non tortor diam purus adipiscing etiam. Urna imperdiet suspendisse diam dignissim imperdiet quis </p>
-                </div>
-               
-                <div className="grid grid-cols-2 lg:grid-cols-3 gap-8 md:gap-12">
+                </div>               
+                <div className="w-full grid grid-cols-2 lg:grid-cols-3 gap-8 md:gap-16">
                     <div className="grid sm:flex sm:items-center gap-y-3 gap-x-4">
                         <Image width={300} height={100} className="rounded-lg w-20 h-20" src="/Assets/images/Home-images/team1.png" alt="Image Description" />
-
                         <div className="sm:flex sm:flex-col sm:h-full">
                             <div>
                                 <h3 className="font-medium text-[1.2rem] text-black ">

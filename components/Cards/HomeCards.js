@@ -4,7 +4,7 @@ import React from 'react'
 const HomeCards = () => {
   return (
     <div className="bg-white w-full">
-      <div className="w-[90%] mx-auto">
+      <div className="w-[95%] mx-auto">
         <div className="flex justify-between items-center  py-[25px]">
           <div className="w-[45%] flex-shrink-0">
             <h2 className='text-gray-700 text-2xl font-montserrat font-bold'>What We Do?</h2>

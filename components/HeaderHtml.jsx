@@ -16,7 +16,7 @@ const HeaderHtml = () => {
                             <li><a>Item 1</a></li>
                             <li>
                                 <a>Parent</a>
-                                <ul className="p-2">
+                                <ul className="p-2 text-[#94A3B8]">
                                     <li><a>Submenu 1</a></li>
                                     <li><a>Submenu 2</a></li>
                                 </ul>
@@ -34,12 +34,12 @@ const HeaderHtml = () => {
                     </a>
                 </div>
                 <div className="hidden lg:flex lg:w-[60%]">
-                    <ul className="menu menu-horizontal lg:flex lg:justify-center lg:items-center px-2 text-14px leading-6 tracking-tight font-extralight">
+                    <ul className="menu menu-horizontal lg:flex lg:justify-center lg:items-center px-2 text-14px leading-6 tracking-tight font-extralight text-[#18181B]">
                         <li><Link href="#">Home</Link></li>
                         <li tabIndex={0}>
                             <details>
                                 <summary className=''>Our Impact</summary>
-                                <ul className="p-2">
+                                <ul className="p-2 text-[#94A3B8]">
                                     <li><a>Submenu 1</a></li>
                                     <li><a>Submenu 2</a></li>
                                 </ul>
@@ -48,7 +48,7 @@ const HeaderHtml = () => {
                         <li tabIndex={0}>
                             <details>
                                 <summary>Get Involved</summary>
-                                <ul className="p-2">
+                                <ul className="p-2 text-[#94A3B8]">
                                     <li><a>Submenu 1</a></li>
                                     <li><a>Submenu 2</a></li>
                                 </ul>
@@ -58,7 +58,7 @@ const HeaderHtml = () => {
                         <li tabIndex={0}>
                             <details>
                                 <summary>About Us</summary>
-                                <ul className="p-2">
+                                <ul className="p-2 text-[#94A3B8]">
                                     <li><a>Submenu 1</a></li>
                                     <li><a>Submenu 2</a></li>
                                 </ul>
@@ -69,8 +69,8 @@ const HeaderHtml = () => {
                     </ul>
                 </div>
                 <div className="navbar-center mr-4">
-                    <a className='cursor-pointer text-[#498240] text-custom-color text-center text-base font-montserrat font-medium'>Member</a>
-                    <a className="btn ml-3 py-[11px] px-[24px] rounded-[10px] bg-[#498240] text-center text-base font-montserrat font-medium text-white border-[#498240] hover:bg-white hover:border-[#498240] hover:text-[#498240] transition duration-300">Donate</a>
+                    <a className='cursor-pointer text-[#498240] text-custom-color text-center text-base font-medium'>Member</a>
+                    <a className="btn ml-3 py-[11px] px-[24px] rounded-[10px] bg-[#498240] text-center text-base font-medium capitalize text-white border-[#498240] hover:bg-white hover:border-[#498240] hover:text-[#498240] transition duration-300">Donate</a>
                 </div>
             </div>
         </div>

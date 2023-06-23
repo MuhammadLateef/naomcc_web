@@ -11,6 +11,9 @@ module.exports = {
         '14px': '14px',
         '20px': '20px',
       },
+      fontFamily:{
+        sans: ['var(--font-montserrat)'],
+      }
      },
   },
   plugins: [require("tailwindcss"), require("daisyui")],

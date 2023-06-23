@@ -328,7 +328,7 @@
     "D:\\muslim-charitable-clinic\\app\\layout": {
       "modules": [
         "D:\\muslim-charitable-clinic\\app\\globals.css",
-        "D:\\muslim-charitable-clinic\\node_modules\\next\\font\\google\\target.css?{\"path\":\"app\\\\layout.js\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}"
+        "D:\\muslim-charitable-clinic\\node_modules\\next\\font\\local\\target.css?{\"path\":\"app\\\\layout.js\",\"import\":\"\",\"arguments\":[{\"src\":\"../public/Assets/fonts/Montserrat-VariableFont_wght.ttf\",\"subsets\":[\"latin\"],\"variable\":\"--font-montserrat\"}],\"variableName\":\"montserrat\"}"
       ],
       "files": [
         "static/css/app/layout.css"

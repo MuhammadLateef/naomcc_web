@@ -8,10 +8,9 @@ const HomeCard2 = () => {
         <div className='w-full bg-[#282828] lg:my-10 my-5'>
             <h2 className='w-[95%] mx-auto text-[#498240] font-semibold md:text-2xl text-xl '>Our Member Organizations</h2>
             <div className="max-w-full mx-auto flex lg:flex-row flex-col justify-between items-center px-4 py-10 sm:px-6 lg:px-8 lg:py-5">
-
                 <div className="lg:w-[48%] w-[100%]">
                     <div className="">
-                        <Image width={5000} height={100} className="" src="/Assets/images/Home-images/cards-member1.png" />
+                        <Image width={5000} height={100} className="" alt='' src="/Assets/images/Home-images/cards-member1.png" />
                         <div className="">
                             <p className="text-[16px] my-[16px] text-white text-justify">
                                 Lorem ipsum dolor sit amet consectetur. Faucibus blandit non tortor diam purus adipiscing etiam. Urna imperdiet suspendisse diam dignissim imperdiet quis commodo vehicula. Consectetur idLorem ipsum dolor sit amet consectetur. Faucibus blandit non tortor diam purus adipiscing etiam. Urna imperdiet suspendisse diam dignissim imperdiet quis commodo vehicula. Consectetur

@@ -54,7 +54,7 @@ const FooterComponent = () => {
                         <li><a className=' text-[20px] hover:text-gray-400 text-white' href="#"><AiFillLinkedin /></a></li>
                     </ul>
                     <p className='text-white font-semibold md:text-lg text-sm my-2'>Subscribe to our Newsletter</p>
-                    <div className="my-2 flex flex-col -space-x-5 items-center gap-2 sm:flex-row sm:gap-3">
+                    <div className="my-2 flex flex-col sm:-space-x-5 space-x-0 items-center gap-2 sm:flex-row sm:gap-3">
                         <div className="w-full">
                             <label for="hero-input" className="sr-only">Search</label>
                             <input type="text" id="hero-input" name="hero-input" className="py-3 px-4 block w-full bg-[#498240] placeholder:text-white placeholder:text-base border border-[#498240] shadow-sm rounded-md focus:z-10 focus:border-blue-500 focus:ring-blue-500 text-white" placeholder="Enter your email" />

@@ -38,9 +38,9 @@ const HomePage = () => {
       <div className="">
         <TeamCard />
       </div>
-      <div className="">
+      {/* <div className="">
         <TeamCard2 />
-      </div>
+      </div> */}
       <div className="">
         <IncrementCard />
       </div>

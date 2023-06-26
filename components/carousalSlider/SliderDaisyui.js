@@ -1,48 +1,4 @@
 'use client'
-// import React, { useRef, useState } from "react";
-// // Import Swiper React components
-// import { Swiper, SwiperSlide } from "swiper/react";
-
-// // Import Swiper styles
-// import "swiper/css";
-// import "swiper/css/effect-fade";
-// import "swiper/css/navigation";
-// import "swiper/css/pagination";
-// // import required modules
-// import { EffectFade, Navigation, Pagination } from "swiper";
-// const SliderDaisyui = () => {
-//     return (
-//         <div className="pt-[400px]">
-//             <Swiper
-//                 spaceBetween={30}
-//                 effect={"fade"}
-//                 navigation={true}
-//                 pagination={{
-//                     clickable: false,
-//                 }}
-//                 modules={[EffectFade, Navigation, Pagination]}
-//                 className="mySwiper"
-//             >
-//                 <SwiperSlide className="w-full h-[30vh]">
-//                     <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
-//                 </SwiperSlide>
-//                 <SwiperSlide className="w-full h-[30vh]">
-//                     <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
-//                 </SwiperSlide>
-//                 <SwiperSlide className="w-full h-[30vh]">
-//                     <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
-//                 </SwiperSlide>
-//                 <SwiperSlide className="w-full h-[30vh]">
-//                     <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
-//                 </SwiperSlide>
-//             </Swiper>
-//         </div>
-//     )
-// }
-
-// export default SliderDaisyui;
-
-
 import React from 'react'
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -98,7 +54,7 @@ const SliderDaisyui = () => {
                                     {/* text-[1.7999999999999998vw] */}
                                     <h2 className='text-white text-center md:text-4xl text-2xl font-montserrat font-extrabold leading-tight'>of Muslim Charitable Clinics</h2>
                                     {/* text-[0.8vw] */}
-                                    <p className='w-[50%] md:text-base text-xs text-white my-[20px] font-montserrat text-center'>The National Association of Muslim Charitable Clinics (NAMCC) is a nationwide community-based, not-for-profit, voluntary membership association supporting to develop the Muslim charitable clinics operating in the country. </p>
+                                    <p className='w-[100%] text-justify md:text-base text-xs text-white my-[20px] font-montserrat text-center'>The National Association of Muslim Charitable Clinics (NAMCC) is a nationwide community-based, not-for-profit, voluntary membership association supporting to develop the Muslim charitable clinics operating in the country. </p>
                                     <a href="#" className='mt-[20px] bg-[#498240] hover:border hover:bg-white hover:border-[#498240] hover:text-[#498240] transition duration-300 py-[11px] px-[24px] rounded-[10px]'>Read More</a>
                                 </div>
                             </div>

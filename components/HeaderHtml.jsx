@@ -7,7 +7,7 @@ const HeaderHtml = () => {
     return (
         <div className='fixed z-50 w-full p-[30px]shadow-xl bg-white'>
             <div className="navbar justify-between py-3">
-                <div className="border-2 pb-2">
+                <div className="pb-2">
                     <div className="dropdown">
                         <label tabIndex={0} className="btn btn-ghost lg:hidden">
                             <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
@@ -70,7 +70,7 @@ const HeaderHtml = () => {
                 </div>
                 <div className="navbar-center mr-4">
                     <a className='cursor-pointer text-[#498240] text-custom-color text-center md:text-base text-xs font-medium'>Member</a>
-                    <a className="ml-2 md:py-[10px] py-[10px] md:px-[24px] px-[18px] rounded-[10px] bg-[#498240] text-center md:text-base text-xs font-medium capitalize text-white border-[#498240] hover:bg-white hover:border-[#498240] hover:text-[#498240] transition duration-300">Donate</a>
+                    <a className="ml-2 md:py-[10px] py-[10px] md:px-[24px] px-[18px] rounded-[10px] bg-[#498240] text-center md:text-base text-xs font-medium capitalize text-white hover:cursor-pointer border-[#498240] hover:bg-white hover:border-[#498240] hover:text-[#498240] transition duration-300">Donate</a>
                 </div>
             </div>
         </div>

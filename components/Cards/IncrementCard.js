@@ -4,7 +4,7 @@ import React from 'react'
 const IncrementCard = () => {
     return (
         <div>
-            <section className="text-gray-700 body-font">
+            <section className="bg-gray-700 body-font">
                 <div className=" max-w-[95%] px-5 py-10 mx-auto">
                     <div className="flex flex-wrap justify-between items-center -m-4 text-center">
                         <div className="p-4 md:w-[19%] sm:w-1/2 w-full">

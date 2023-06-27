@@ -44,7 +44,7 @@ const SliderDaisyui = () => {
                         modules={[Navigation]}
                         className="mySwiper w-full h-[90vh]"
                     >
-                        <SwiperSlide className='h-[100vh] bg-[url("/Assets/images/Home-images/Slider-home1.png")]'>
+                        <SwiperSlide className='h-[100vh] bg-no-repeat bg-cover bg-[url("/Assets/images/Home-images/Slider-home1.png")]'>
                             <div className="w-full flex justify-center items-center">
                                 <div className="md:w-[60%] w-70% mx-auto md:pt-20 pt-32 pb-3 flex flex-col justify-center items-center">
                                 {/* md:text-[1.7999999999999998vw] */}

@@ -54,7 +54,7 @@ const SliderDaisyui = () => {
                                     {/* text-[1.7999999999999998vw] */}
                                     <h2 className='text-white text-center md:text-4xl text-2xl font-montserrat font-extrabold leading-tight'>of Muslim Charitable Clinics</h2>
                                     {/* text-[0.8vw] */}
-                                    <p className='w-[100%] text-justify md:text-base text-xs text-white my-[20px] font-montserrat'>The National Association of Muslim Charitable Clinics (NAMCC) is a nationwide community-based, not-for-profit, voluntary membership association supporting to develop the Muslim charitable clinics operating in the country. </p>
+                                    <p className='md:w-[100%] w-[80%] text-justify md:text-base text-xs text-white my-[20px] font-montserrat'>The National Association of Muslim Charitable Clinics (NAMCC) is a nationwide community-based, not-for-profit, voluntary membership association supporting to develop the Muslim charitable clinics operating in the country. </p>
                                     <a href="#" className='mt-[20px] bg-[#498240] hover:border hover:bg-white hover:border-[#498240] hover:text-[#498240] transition duration-300 py-[11px] px-[24px] rounded-[10px]'>Read More</a>
                                 </div>
                             </div>
@@ -69,7 +69,7 @@ const SliderDaisyui = () => {
                                     {/* text-[1.7999999999999998vw] */}
                                     <h2 className='text-white text-center md:text-4xl text-2xl font-montserrat font-extrabold leading-tight'>of Muslim Charitable Clinics</h2>
                                     {/* text-[0.8vw] */}
-                                    <p className='w-[100%] md:text-base text-xs text-white my-[20px] font-montserrat text-justify'>The National Association of Muslim Charitable Clinics (NAMCC) is a nationwide community-based, not-for-profit, voluntary membership association supporting to develop the Muslim charitable clinics operating in the country. </p>
+                                    <p className='md:w-[100%] w-[80%] md:text-base text-xs text-white my-[20px] font-montserrat text-justify'>The National Association of Muslim Charitable Clinics (NAMCC) is a nationwide community-based, not-for-profit, voluntary membership association supporting to develop the Muslim charitable clinics operating in the country. </p>
                                     <a href="#" className='mt-[20px] bg-[#498240] hover:border hover:bg-white hover:border-[#498240] hover:text-[#498240] transition duration-300 py-[11px] px-[24px] rounded-[10px]'>Read More</a>
                                 </div>
                             </div>
@@ -84,7 +84,7 @@ const SliderDaisyui = () => {
                                     {/* text-[1.7999999999999998vw] */}
                                     <h2 className='text-white text-center md:text-4xl text-2xl font-montserrat font-extrabold leading-tight'>of Muslim Charitable Clinics</h2>
                                     {/* text-[0.8vw] */}
-                                    <p className='w-[100%] md:text-base text-xs text-white my-[20px] font-montserrat text-justify'>The National Association of Muslim Charitable Clinics (NAMCC) is a nationwide community-based, not-for-profit, voluntary membership association supporting to develop the Muslim charitable clinics operating in the country. </p>
+                                    <p className='md:w-[100%] w-[80%] md:text-base text-xs text-white my-[20px] font-montserrat text-justify'>The National Association of Muslim Charitable Clinics (NAMCC) is a nationwide community-based, not-for-profit, voluntary membership association supporting to develop the Muslim charitable clinics operating in the country. </p>
                                     <a href="#" className='mt-[20px] bg-[#498240] hover:border hover:bg-white hover:border-[#498240] hover:text-[#498240] transition duration-300 py-[11px] px-[24px] rounded-[10px]'>Read More</a>
                                 </div>
                             </div>
@@ -99,7 +99,7 @@ const SliderDaisyui = () => {
                                     {/* text-[1.7999999999999998vw] */}
                                     <h2 className='text-white text-center md:text-4xl text-2xl font-montserrat font-extrabold leading-tight'>of Muslim Charitable Clinics</h2>
                                     {/* text-[0.8vw] */}
-                                    <p className='w-[100%] md:text-base text-xs text-white my-[20px] font-montserrat text-justify'>The National Association of Muslim Charitable Clinics (NAMCC) is a nationwide community-based, not-for-profit, voluntary membership association supporting to develop the Muslim charitable clinics operating in the country. </p>
+                                    <p className='md:w-[100%] w-[80%] md:text-base text-xs text-white my-[20px] font-montserrat text-justify'>The National Association of Muslim Charitable Clinics (NAMCC) is a nationwide community-based, not-for-profit, voluntary membership association supporting to develop the Muslim charitable clinics operating in the country. </p>
                                     <a href="#" className='mt-[20px] bg-[#498240] hover:border hover:bg-white hover:border-[#498240] hover:text-[#498240] transition duration-300 py-[11px] px-[24px] rounded-[10px]'>Read More</a>
                                 </div>
                             </div>

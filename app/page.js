@@ -1,12 +1,9 @@
-import HeaderHtml from '@/components/HeaderHtml'
-import HomePage from './HomePage/HomePage';
-import FooterComponent from '@/components/Layouts/FooterComponent';
+import HomePage from './Home/page';
+import AboutUs from './AboutUs/page';
 export default function Home() {
   return (
     <main>
-      <HeaderHtml />
       <HomePage />
-      <FooterComponent />
     </main>
   )
 }

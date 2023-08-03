@@ -1,4 +1,6 @@
 import './globals.css'
+import HeaderHtml from '@/components/Layouts/HeaderHtml'
+import FooterComponent from '@/components/Layouts/FooterComponent';
 import Montserrat from 'next/font/local';
 const montserrat = Montserrat({
   src: '../public/Assets/fonts/Montserrat-VariableFont_wght.ttf',
@@ -14,7 +16,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${montserrat.variable} font-sans`}>
+      <HeaderHtml />
         {children}
+      <FooterComponent /> 
       </body>
     </html>
   )

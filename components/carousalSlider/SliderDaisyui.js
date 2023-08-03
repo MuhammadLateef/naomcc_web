@@ -2,10 +2,9 @@
 import React from 'react'
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
-
+import Image from 'next/image';
 // Import Swiper styles
 import "swiper/css";
-
 // import required modules
 import { EffectFade, Autoplay, Navigation } from "swiper";
 const SliderDaisyui = () => {
@@ -14,13 +13,13 @@ const SliderDaisyui = () => {
             <div className="relative">
                 <div className='h-auto pt-[80px]'>
                     <div className=''>
-                        <div className=" cursor-pointer swiper-button absolute z-10 md:py-[19px] py-[10px] md:px-[19px] px-[10px] bottom-[15rem] left-8 right-30 border rounded-xl image-swiper-button-next">
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+                        <div className=" cursor-pointer swiper-button absolute z-10 md:py-[19px] py-[10px] md:px-[19px] px-[10px] bottom-[15rem] left-8 right-30 border rounded-xl image-swiper-button-prev">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 text-[#fff]">
                                 <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
                             </svg>
                         </div>
-                        <div className=" cursor-pointer swiper-button image-swiper-button-prev absolute z-10 md:py-[19px] py-[10px] md:px-[19px] px-[10px] bottom-[15rem] md:left-30 left-18 md:right-20 right-5 border rounded-xl">
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+                        <div className=" cursor-pointer swiper-button image-swiper-button-next absolute z-10 md:py-[19px] py-[10px] md:px-[19px] px-[10px] bottom-[15rem] md:left-30 left-18 md:right-20 right-5 border rounded-xl">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 text-[#fff]">
                                 <path strokeLinecap="round" strokeLinejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
                             </svg>
                         </div>
@@ -42,68 +41,58 @@ const SliderDaisyui = () => {
                             disabledClass: "swiper-button-disabled"
                         }}
                         modules={[Navigation]}
-                        className="mySwiper w-full h-[90vh]"
+                        className="mySwiper w-full md:h-[90vh] h-[65vh]"
                     >
+                      
                         <SwiperSlide className='h-[100vh] bg-no-repeat bg-cover bg-[url("/Assets/images/Home-images/Slider-home1.png")]'>
                             <div className="w-full flex justify-center items-center">
-                                <div className="md:w-[60%] w-70% mx-auto md:pt-20 pt-32 pb-3 flex flex-col justify-center items-center">
+                                <div className="md:w-[55%] w-[100%] mx-auto md:pt-[8rem] pt-44 pb-3 flex flex-col justify-center items-center">
                                 {/* md:text-[1.7999999999999998vw] */}
-                                    <h2 className='text-white text-center md:text-4xl text-2xl font-extrabold leading-tight'>The Journey of National </h2>
                                     {/* text-[6.4vw] */}
-                                    <h2 className='text-[#498240] text-center md:text-7xl text-4xl font-montserrat font-extrabold leading-tight'>Association</h2>
+                                    <h2 className='text-white text-center text-[3vw] font-extrabold leading-tight'>National Association Of Muslim <br /> Charitable Clinics</h2>
                                     {/* text-[1.7999999999999998vw] */}
-                                    <h2 className='text-white text-center md:text-4xl text-2xl font-montserrat font-extrabold leading-tight'>of Muslim Charitable Clinics</h2>
+                                    <h2 className='text-[#94ED86] italic font-bold text-[1.5vw] leading-tight'>Bridging the healthcare gap</h2>
                                     {/* text-[0.8vw] */}
-                                    <p className='md:w-[100%] w-[80%] text-justify md:text-base text-xs text-white my-[20px] font-montserrat'>The National Association of Muslim Charitable Clinics (NAMCC) is a nationwide community-based, not-for-profit, voluntary membership association supporting to develop the Muslim charitable clinics operating in the country. </p>
-                                    <a href="#" className='mt-[20px] bg-[#498240] hover:border hover:bg-white hover:border-[#498240] hover:text-[#498240] transition duration-300 py-[11px] px-[24px] rounded-[10px]'>Read More</a>
                                 </div>
                             </div>
                         </SwiperSlide>                     
-                        <SwiperSlide className='h-[100vh] bg-[url("/Assets/images/Home-images/Slider-home1.png")]'>
+                        <SwiperSlide className='h-[100vh] bg-no-repeat bg-cover bg-[url("/Assets/images/Home-images/Slider-home1.png")]'>
                             <div className="w-full flex justify-center items-center">
-                                <div className="md:w-[60%] w-70% mx-auto md:pt-20 pt-32 pb-3 flex flex-col justify-center items-center">
+                                <div className="md:w-[55%] w-[100%] mx-auto md:pt-[8rem] pt-44 pb-3 flex flex-col justify-center items-center">
                                 {/* md:text-[1.7999999999999998vw] */}
-                                    <h2 className='text-white text-center md:text-4xl text-2xl font-extrabold leading-tight'>The Journey of National </h2>
                                     {/* text-[6.4vw] */}
-                                    <h2 className='text-[#498240] text-center md:text-7xl text-4xl font-montserrat font-extrabold leading-tight'>Association</h2>
+                                    <h2 className='text-white text-center text-[3vw] font-extrabold leading-tight'>National Association Of Muslim <br /> Charitable Clinics</h2>
                                     {/* text-[1.7999999999999998vw] */}
-                                    <h2 className='text-white text-center md:text-4xl text-2xl font-montserrat font-extrabold leading-tight'>of Muslim Charitable Clinics</h2>
+                                    <h2 className='text-[#94ED86] italic font-bold text-[1.5vw] leading-tight'>Bridging the healthcare gap</h2>
                                     {/* text-[0.8vw] */}
-                                    <p className='md:w-[100%] w-[80%] md:text-base text-xs text-white my-[20px] font-montserrat text-justify'>The National Association of Muslim Charitable Clinics (NAMCC) is a nationwide community-based, not-for-profit, voluntary membership association supporting to develop the Muslim charitable clinics operating in the country. </p>
-                                    <a href="#" className='mt-[20px] bg-[#498240] hover:border hover:bg-white hover:border-[#498240] hover:text-[#498240] transition duration-300 py-[11px] px-[24px] rounded-[10px]'>Read More</a>
                                 </div>
                             </div>
                         </SwiperSlide>                     
-                        <SwiperSlide className='h-[100vh] bg-[url("/Assets/images/Home-images/Slider-home1.png")]'>
+                        <SwiperSlide className='h-[100vh] bg-no-repeat bg-cover bg-[url("/Assets/images/Home-images/Slider-home1.png")]'>
                             <div className="w-full flex justify-center items-center">
-                                <div className="md:w-[60%] w-70% mx-auto md:pt-20 pt-32 pb-3 flex flex-col justify-center items-center">
+                                <div className="md:w-[55%] w-[100%] mx-auto md:pt-[8rem] pt-44 pb-3 flex flex-col justify-center items-center">
                                 {/* md:text-[1.7999999999999998vw] */}
-                                    <h2 className='text-white text-center md:text-4xl text-2xl font-extrabold leading-tight'>The Journey of National </h2>
                                     {/* text-[6.4vw] */}
-                                    <h2 className='text-[#498240] text-center md:text-7xl text-4xl font-montserrat font-extrabold leading-tight'>Association</h2>
+                                    <h2 className='text-white text-center text-[3vw] font-extrabold leading-tight'>National Association Of Muslim <br /> Charitable Clinics</h2>
                                     {/* text-[1.7999999999999998vw] */}
-                                    <h2 className='text-white text-center md:text-4xl text-2xl font-montserrat font-extrabold leading-tight'>of Muslim Charitable Clinics</h2>
+                                    <h2 className='text-[#94ED86] italic font-bold text-[1.5vw] leading-tight'>Bridging the healthcare gap</h2>
                                     {/* text-[0.8vw] */}
-                                    <p className='md:w-[100%] w-[80%] md:text-base text-xs text-white my-[20px] font-montserrat text-justify'>The National Association of Muslim Charitable Clinics (NAMCC) is a nationwide community-based, not-for-profit, voluntary membership association supporting to develop the Muslim charitable clinics operating in the country. </p>
-                                    <a href="#" className='mt-[20px] bg-[#498240] hover:border hover:bg-white hover:border-[#498240] hover:text-[#498240] transition duration-300 py-[11px] px-[24px] rounded-[10px]'>Read More</a>
                                 </div>
                             </div>
                         </SwiperSlide>                     
-                        <SwiperSlide className='h-[100vh] bg-[url("/Assets/images/Home-images/Slider-home1.png")]'>
+                        <SwiperSlide className='h-[100vh] bg-no-repeat bg-cover bg-[url("/Assets/images/Home-images/Slider-home1.png")]'>
                             <div className="w-full flex justify-center items-center">
-                                <div className="md:w-[60%] w-70% mx-auto md:pt-20 pt-32 pb-3 flex flex-col justify-center items-center">
+                                <div className="md:w-[55%] w-[100%] mx-auto md:pt-[8rem] pt-44 pb-3 flex flex-col justify-center items-center">
                                 {/* md:text-[1.7999999999999998vw] */}
-                                    <h2 className='text-white text-center md:text-4xl text-2xl font-extrabold leading-tight'>The Journey of National </h2>
                                     {/* text-[6.4vw] */}
-                                    <h2 className='text-[#498240] text-center md:text-7xl text-4xl font-montserrat font-extrabold leading-tight'>Association</h2>
+                                    <h2 className='text-white text-center text-[3vw] font-extrabold leading-tight'>National Association Of Muslim <br /> Charitable Clinics</h2>
                                     {/* text-[1.7999999999999998vw] */}
-                                    <h2 className='text-white text-center md:text-4xl text-2xl font-montserrat font-extrabold leading-tight'>of Muslim Charitable Clinics</h2>
+                                    <h2 className='text-[#94ED86] italic font-bold text-[1.5vw] leading-tight'>Bridging the healthcare gap</h2>
                                     {/* text-[0.8vw] */}
-                                    <p className='md:w-[100%] w-[80%] md:text-base text-xs text-white my-[20px] font-montserrat text-justify'>The National Association of Muslim Charitable Clinics (NAMCC) is a nationwide community-based, not-for-profit, voluntary membership association supporting to develop the Muslim charitable clinics operating in the country. </p>
-                                    <a href="#" className='mt-[20px] bg-[#498240] hover:border hover:bg-white hover:border-[#498240] hover:text-[#498240] transition duration-300 py-[11px] px-[24px] rounded-[10px]'>Read More</a>
                                 </div>
                             </div>
                         </SwiperSlide>                     
+                                                                    
                     </Swiper>
                 </div>
             </div>
@@ -121,6 +110,7 @@ const SliderDaisyui = () => {
                         <button class="absolute border right-0 bg-[#498240] hover:border hover:bg-[#F4F4F4] hover:border-[#498240] hover:text-[#498240] transition duration-300 md:py-[11px] py-[10px] md:px-[40px] px-[20px] rounded-3xl text-white">Find</button>
                     </div>
                 </div>
+               
             </div>
         </>
     )

@@ -47,6 +47,8 @@ const AboutUs = () => {
                     <li className='my-2'>To tackle any other collective emerging/urgent matter/issue related to Muslim charitable clinics in the country.</li>
                 </ul> */}
             </div>
+
+            {/* board of directors */}
             <div className="pt-[70px] pb-[30px] h-[100%] bg-[#f5eeee]">
                 <div className="w-[90%] mx-auto flex flex-col justify-center items-center">
                     <div className="md:w-[25%] pb-10 w-[100%] flex flex-col items-center mx-auto">

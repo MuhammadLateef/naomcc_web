@@ -22,7 +22,8 @@ const page = () => {
                         <h2 class="card-title">The National Association of Muslim Charitable Clinics</h2>
                         <p>The National Association of Muslim Charitable Clinics (NAOMCC) will help your clinic/organization to connect with a wide range of benefits, including grant opportunities, networking, and other clinical support. To become an organizational member the clinic/organization must be charitable/not-for-profit and must be run or managed by Muslims.</p>
                         <div class="card-actions justify-end">
-                            <a href='https://forms.gle/tZhBsP63qJUB3UkG9' target='_blank' className="btn btn-outline btn-success">Membership</a>
+                            <a href='#' target='_blank' className="btn btn-outline btn-success">Membership</a>
+                            {/* <a href='https://forms.gle/tZhBsP63qJUB3UkG9' target='_blank' className="btn btn-outline btn-success">Membership</a> */}
                         </div>
                     </div>
                 </div>

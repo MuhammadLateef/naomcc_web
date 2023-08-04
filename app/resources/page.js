@@ -5,7 +5,7 @@ const page = () => {
         <div className=' bg-[#EEEEEE]'>
             <div className="w-[90%] pt-[150px] mx-auto">
                 <div className="pb-10 w-[100%] flex flex-col items-start mx-auto">
-                    <h2 className='md:text-[30px] text-[23px] font-bold text-[#252C32]'>Member Organization</h2>
+                    <h2 className='md:text-[30px] text-[23px] font-bold text-[#252C32]'>Members</h2>
                     <Image width={90} height={20} className='text-center' src="/Assets/images/Home-images/svg/svg-line.svg" alt='img' />
                 </div>
                 <div className="w-full flex flex-col items-center">

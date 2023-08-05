@@ -4,7 +4,7 @@ const page = () => {
   return (
     <div w-full>
       <div className='w-[80%] mx-auto h-[80vh] w pt-[150px] bg-no-repeat bg-cover bg-[url("/Assets/images/Home-images/Slider-home1.jpg")]'>
-        <h2 className='text-white text-center text-[2vw] font-extrabold leading-tight'>News and Events</h2>
+        <h2 className='text-center text-[2vw] font-extrabold leading-tight'>News and Events</h2>
         {/* <marquee direction="left"
              behavior="alternate"
              className="my-12 text-red-700 font-bold"

@@ -18,7 +18,7 @@ const HeaderHtml = () => {
                             <li><Link href="/AboutUs">About Us</Link></li>
                             <li><Link href="/resources">Resources</Link></li>
                             <li>
-                            <a href='https://forms.gle/tZhBsP63qJUB3UkG9' target='_blank' className="">Membership</a>
+                            <a href='/Membership' className="">Membership</a>
                             </li>
                             <li><Link href="#">News & Events</Link></li>
                             <li><Link href="Contactus">Contact Us</Link></li>

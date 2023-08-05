@@ -18,7 +18,7 @@ const FooterComponent = () => {
                   <div className="md:w-[70%] w-full mx-auto flex flex-wrap justify-around items-center">
                     <Link href="/AboutUs" className="my-4 hover:tracking-[0.05px] block text-[#4A525E] font-semibold text-base" >About Us <span className="text-teal-600 text-base p-1"></span>
                     </Link>
-                    <a className="my-4 hover:tracking-[0.05px] block text-[#4A525E] font-semibold text-base" href="/resoures">Resources <span className="text-teal-600 text-base p-1"></span>
+                    <a className="my-4 hover:tracking-[0.05px] block text-[#4A525E] font-semibold text-base" href="/resources">Resources <span className="text-teal-600 text-base p-1"></span>
                     </a>
                     <Link href="/news" className="my-4 hover:tracking-[0.05px] block text-[#4A525E] font-semibold text-base">News & Events <span className="text-teal-600 text-base p-1"></span>
                     </Link>

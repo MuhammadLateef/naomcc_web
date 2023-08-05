@@ -175,7 +175,7 @@ const AboutUs = () => {
                 underserved populations
               </li>
               <li className="my-[10px]">
-                6. Expanding quality service delivery: NAOMCC's overall
+                6. Expanding quality service delivery: NAOMCC{"'"}s overall
                 objective is to contribute to the improvement and expansion of
                 quality healthcare services offered by Muslim charitable clinics
                 nationwide.

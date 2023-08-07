@@ -14,7 +14,7 @@ const AboutUs = () => {
             src="/Assets/images/Home-images/svg/svg-line.svg"
             alt="img"
           />
-          <p className="md:text-[16px] text-[14px] mt-[20px] text-[#18181B]">
+          {/* <p className="md:text-[16px] text-[14px] mt-[20px] text-[#18181B]">
             The National Association of Muslim Charitable Clinics (NAOMCC), an
             initiative of{" "}
             <a
@@ -33,7 +33,7 @@ const AboutUs = () => {
             funding sources, education, training, advocacy efforts,
             collaboration, and work toward resource pooling to improve and
             expand quality service delivery.
-          </p>
+          </p> */}
           <h3 className="md:text-[30px] font-bold text-[20px] mt-[16px] mb-[8px] text-[#252C32]">
             Vision
           </h3>

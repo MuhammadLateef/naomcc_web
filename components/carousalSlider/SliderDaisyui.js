@@ -77,7 +77,7 @@ const SliderDaisyui = () => {
                     National Association Of Muslim <br /> Charitable Clinics
                   </h2>
                   <h2 className={`${serif4.className} text-[#94ED86] italic font-bold text-[1.5vw] leading-tight text-right px-[37px]`}>
-                    Bridging the healthcare gap
+                  <i>Bridging the healthcare gap</i>
                   </h2>
                 </div>
               </div>
@@ -90,7 +90,7 @@ const SliderDaisyui = () => {
                     National Association Of Muslim <br /> Charitable Clinics
                   </h2>
                   <h2 className={`${serif4.className} text-[#94ED86] italic font-bold text-[1.5vw] leading-tight text-right px-[37px]`}>
-                    Bridging the healthcare gap
+                  <i>Bridging the healthcare gap</i>
                   </h2>
                 </div>
               </div>
@@ -103,7 +103,7 @@ const SliderDaisyui = () => {
                     National Association Of Muslim <br /> Charitable Clinics
                   </h2>
                   <h2 className={`${serif4.className} text-[#94ED86] italic font-bold text-[1.5vw] leading-tight text-right px-[37px]`}>
-                    Bridging the healthcare gap
+                  <i>Bridging the healthcare gap</i>
                   </h2>
                 </div>
               </div>
@@ -116,7 +116,7 @@ const SliderDaisyui = () => {
                     National Association Of Muslim <br /> Charitable Clinics
                   </h2>
                   <h2 className={`${serif4.className} text-[#94ED86] italic font-bold text-[1.5vw] leading-tight text-right px-[37px]`}>
-                    Bridging the healthcare gap
+                    <i>Bridging the healthcare gap</i>
                   </h2>
                 </div>
               </div>

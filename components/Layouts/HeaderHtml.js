@@ -20,7 +20,7 @@ const HeaderHtml = () => {
                             <li>
                             <a href='/Membership' className="">Membership</a>
                             </li>
-                            <li><Link href="#">News & Events</Link></li>
+                            <li><Link href="/News">News & Events</Link></li>
                             <li><Link href="Contactus">Contact Us</Link></li>
                         </ul>
                     </div>

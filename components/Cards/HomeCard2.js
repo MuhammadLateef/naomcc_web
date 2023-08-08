@@ -65,66 +65,66 @@ const HomeCard2 = () => {
                         className="mySwiper w-[80%] mx-auto h-auto flex items-center"
                     >
                             <SwiperSlide className='h-[20vh]'>
-                                <div className="flex items-center">
+                                <div className="flex items-center justify-center">
                                 <a href="https://www.shifausahouston.org/" target='_blank'> <Image width={200} height={50} src="/Assets/images/slider2/image1.svg" alt='img' /> </a>
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide className='h-[20vh]'>
-                                <div className="flex items-center">
+                                <div className="flex items-center justify-center">
                                 <a href="https://ibnsinafoundation.org/" target='_blank'> <Image width={200} height={50} src="/Assets/images/slider2/image34.png" alt='img' /> </a>
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide className='h-[20vh] w-full'>
-                                <div className="w-full flex items-center">
+                                <div className="w-full flex items-center justify-center">
                                 <a href="https://www.assalamclinic.com/" target='_blank'> <Image width={200} height={50} src="/Assets/images/slider2/image3.svg" alt='img' /> </a>
                                 </div>
                             </SwiperSlide>
                            
                             <SwiperSlide className='h-[20vh] w-full'>
-                                <div className="w-full flex items-center">
+                                <div className="w-full flex items-center justify-center">
                                 <a href="https://trshealth.org/" target='_blank'> <Image width={200} height={50} src="/Assets/images/slider2/image5.svg" alt='img' /> </a>
                                 </div>
                             </SwiperSlide>
                            
                             <SwiperSlide className='h-[20vh] flex items-center justify-center w-full'>
-                                <div className="w-full flex items-center">
+                                <div className="w-full flex items-center justify-center">
                                 <a href="https://www.mercy.net/" target='_blank'> <Image width={200} height={50} src="/Assets/images/slider2/image6.svg" alt='img' /> </a>
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide className='h-[20vh]'>
-                                <div className="flex items-center">
+                                <div className="flex items-center justify-center">
                                 <a href="#"> <Image width={200} height={50} src="/Assets/images/slider2/image4.svg" alt='img' /> </a>
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide className='h-[20vh]'>
-                                <div className="flex items-center">
+                                <div className="flex items-center justify-center">
                                 <a href="https://www.shifausahouston.org/" target='_blank'> <Image width={200} height={50} src="/Assets/images/slider2/image1.svg" alt='img' /> </a>
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide className='h-[20vh]'>
-                                <div className="flex items-center">
+                                <div className="flex items-center justify-center">
                                 <a href="https://ibnsinafoundation.org/" target='_blank'> <Image width={200} height={50} src="/Assets/images/slider2/image34.png" alt='img' /> </a>
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide className='h-[20vh] w-full'>
-                                <div className="w-full flex items-center">
+                                <div className="w-full flex items-center justify-center">
                                 <a href="https://www.assalamclinic.com/" target='_blank'> <Image width={200} height={50} src="/Assets/images/slider2/image3.svg" alt='img' /> </a>
                                 </div>
                             </SwiperSlide>
                            
                             <SwiperSlide className='h-[20vh] w-full'>
-                                <div className="w-full flex items-center">
+                                <div className="w-full flex items-center justify-center">
                                 <a href="https://trshealth.org/" target='_blank'> <Image width={200} height={50} src="/Assets/images/slider2/image5.svg" alt='img' /> </a>
                                 </div>
                             </SwiperSlide>
                            
                             <SwiperSlide className='h-[20vh] flex items-center justify-center w-full'>
-                                <div className="w-full flex items-center">
+                                <div className="w-full flex items-center justify-center">
                                 <a href="https://www.mercy.net/" target='_blank'> <Image width={200} height={50} src="/Assets/images/slider2/image6.svg" alt='img' /> </a>
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide className='h-[20vh]'>
-                                <div className="flex items-center">
+                                <div className="flex items-center justify-center">
                                 <a href="#"> <Image width={200} height={50} src="/Assets/images/slider2/image4.svg" alt='img' /> </a>
                                 </div>
                             </SwiperSlide>

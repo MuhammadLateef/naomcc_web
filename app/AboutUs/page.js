@@ -5,35 +5,23 @@ const AboutUs = () => {
     <div className="pt-[100px] bg-white w-full">
       <div className="w-[90%] py-[50px] mx-auto flex md:flex-row flex-col justify-between items-center">
         <div className="md:w-[50%] w-[100%]">
-          <h1 className="md:text-[30px] text-[20px] font-bold text-[#252C32]">
+          {/* <h1 className="md:text-[30px] text-[20px] font-bold text-[#252C32]">
             National Association Of Muslim Charitable Clinics
-          </h1>
+          </h1> */}
           <Image
             width={90}
             height={20}
             src="/Assets/images/Home-images/svg/svg-line.svg"
             alt="img"
           />
-          {/* <p className="md:text-[16px] text-[14px] mt-[20px] text-[#18181B]">
-            The National Association of Muslim Charitable Clinics (NAOMCC), an
-            initiative of{" "}
-            <a
-              className="text-blue-500 hover:text-green-500"
-              target="_blank"
-              href="https://ibnsinafoundation.org/"
-            >
-              Ibn Sina Foundation,
-            </a>{" "}
-            a nationwide community-based, not-for-profit, voluntary membership
-            association supporting to develop the Muslim charitable clinics
-            operating in the country. The aim is to unite healthcare
-            organizations and clinics to share common interests and collaborate
-            in a concerted effort to uplift communities. It provides a wide
-            range of support to member organizations through navigating various
-            funding sources, education, training, advocacy efforts,
-            collaboration, and work toward resource pooling to improve and
-            expand quality service delivery.
-          </p> */}
+          <p className="md:text-[16px] text-[14px] mt-[20px] text-[#18181B]">
+              The National Association of Muslim Charitable Clinics (NAOMCC) is
+              a nationwide community-based, not-for-profit organization that
+              aims to support and develop Muslim charitable clinics across the
+              country. The primary goal of NAOMCC is to bring together
+              healthcare organizations and clinics with shared interests,
+              fostering collaboration to uplift communities.
+            </p>
           <h3 className="md:text-[30px] font-bold text-[20px] mt-[16px] mb-[8px] text-[#252C32]">
             Vision
           </h3>
@@ -130,16 +118,9 @@ const AboutUs = () => {
       <div className="bg-white">
         <div className="w-[90%] mx-auto flex md:flex-row flex-col md:py-8 py-4 justify-start items-center">
           <div className="w-[100%]">
-            <p className="md:text-[16px] text-[14px] mt-[20px] text-[#18181B]">
-              The National Association of Muslim Charitable Clinics (NAOMCC) is
-              a nationwide community-based, not-for-profit organization that
-              aims to support and develop Muslim charitable clinics across the
-              country. The primary goal of NAOMCC is to bring together
-              healthcare organizations and clinics with shared interests,
-              fostering collaboration to uplift communities.
-            </p>
+            
             <h2 className="text-[#252C32] md:text-[30px] text-[20px] font-bold my-4">
-              The key functions of NAOMCC include:
+              Functions :
             </h2>
             <ol className="w-full list-decimal text-[#18181B] md:text-[16px] font-normal text-[14px] pl-[30px]">
               <li className="my-[10px]">
@@ -175,7 +156,7 @@ const AboutUs = () => {
                 underserved populations
               </li>
               <li className="my-[10px]">
-                6. Expanding quality service delivery: NAOMCC{"'"}s overall
+                Expanding quality service delivery: NAOMCC{"'"}s overall
                 objective is to contribute to the improvement and expansion of
                 quality healthcare services offered by Muslim charitable clinics
                 nationwide.

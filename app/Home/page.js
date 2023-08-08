@@ -14,6 +14,7 @@ const HomePage = () => {
   return (
     <div>
       <SliderDaisyui />
+    
       <div className="">
         <div className="hero pt-32 bg-[#EEE]">
           <div className="hero-content w-[95%] mx-auto pt-[10px] mt-[20px] flex-col lg:flex-row">

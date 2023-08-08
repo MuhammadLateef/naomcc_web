@@ -20,11 +20,11 @@ const FooterComponent = () => {
                     </Link>
                     <a className="my-4 hover:tracking-[0.05px] block text-[#4A525E] font-semibold text-base" href="/resources">Resources <span className="text-teal-600 text-base p-1"></span>
                     </a>
-                    <Link href="/news" className="my-4 hover:tracking-[0.05px] block text-[#4A525E] font-semibold text-base">News & Events <span className="text-teal-600 text-base p-1"></span>
+                    <Link href="/News" className="my-4 hover:tracking-[0.05px] block text-[#4A525E] font-semibold text-base">News & Events <span className="text-teal-600 text-base p-1"></span>
                     </Link>
                     <Link className="my-4 hover:tracking-[0.05px] block text-[#4A525E] font-semibold text-base" href="/Contactus">Contact Us <span className="text-teal-600 text-base p-1"></span>
                     </Link>
-                    <a href='https://forms.gle/tZhBsP63qJUB3UkG9'  target='_blank' className="my-4 hover:tracking-[0.05px] block text-[#4A525E] font-semibold text-base">Membership <span className="text-teal-600 text-base p-1"></span>
+                    <a href='/Membership'  target='_blank' className="my-4 hover:tracking-[0.05px] block text-[#4A525E] font-semibold text-base">Membership <span className="text-teal-600 text-base p-1"></span>
                     </a>
                 </div>
                 <div className="p-5 flex items-center justify-center">

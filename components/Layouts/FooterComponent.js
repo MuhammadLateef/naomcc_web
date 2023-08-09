@@ -18,14 +18,14 @@ const FooterComponent = () => {
                   <div className="md:w-[70%] w-full mx-auto flex flex-wrap justify-around items-center">
                     <Link href="/AboutUs" className="my-4 hover:tracking-[0.05px] block text-[#4A525E] font-semibold text-base" >About Us <span className="text-teal-600 text-base p-1"></span>
                     </Link>
-                    <a className="my-4 hover:tracking-[0.05px] block text-[#4A525E] font-semibold text-base" href="/resources">Resources <span className="text-teal-600 text-base p-1"></span>
-                    </a>
+                    <Link className="my-4 hover:tracking-[0.05px] block text-[#4A525E] font-semibold text-base" href="/resources">Resources <span className="text-teal-600 text-base p-1"></span>
+                    </Link>
                     <Link href="/News" className="my-4 hover:tracking-[0.05px] block text-[#4A525E] font-semibold text-base">News & Events <span className="text-teal-600 text-base p-1"></span>
                     </Link>
                     <Link className="my-4 hover:tracking-[0.05px] block text-[#4A525E] font-semibold text-base" href="/Contactus">Contact Us <span className="text-teal-600 text-base p-1"></span>
                     </Link>
-                    <a href='/Membership'  target='_blank' className="my-4 hover:tracking-[0.05px] block text-[#4A525E] font-semibold text-base">Membership <span className="text-teal-600 text-base p-1"></span>
-                    </a>
+                    <Link href='/Membership'  target='_blank' className="my-4 hover:tracking-[0.05px] block text-[#4A525E] font-semibold text-base">Membership <span className="text-teal-600 text-base p-1"></span>
+                    </Link>
                 </div>
                 <div className="p-5 flex items-center justify-center">
                     <a className='text-[40px] hover:text-green-500 text-[#4A525E]'><MdLocationOn /></a>

@@ -174,6 +174,21 @@ const HomeCard2 = () => {
                                 <a href="https://uhiclinic.org/" target='_blank'> <Image width={120} height={50} src="/Assets/images/slider2/image9.png" alt='img' /> </a>
                                 </div>
                             </SwiperSlide>
+                            <SwiperSlide className='h-[20vh]'>
+                                <div className="flex items-center justify-center">
+                                <a href="https://www.medinahealthcare.org/" target='_blank'> <Image width={200} height={50} src="/Assets/images/slider2/image10.webp" alt='img' /> </a>
+                                </div>
+                            </SwiperSlide>
+                            <SwiperSlide className='h-[20vh]'>
+                                <div className="flex items-center justify-center">
+                                <a href="https://massclinic.org/" target='_blank'> <Image width={200} height={50} src="/Assets/images/slider2/image11.png" alt='img' /> </a>
+                                </div>
+                            </SwiperSlide>
+                            <SwiperSlide className='h-[20vh]'>
+                                <div className="flex items-center justify-center">
+                                <a href="https://www.multiculturalcenter.net/" target='_blank'> <Image width={200} height={50} src="/Assets/images/slider2/image12.png" alt='img' /> </a>
+                                </div>
+                            </SwiperSlide>
                     </Swiper>
                 </div>
             </div>

@@ -24,7 +24,7 @@ const FooterComponent = () => {
                     </Link>
                     <Link className="my-4 hover:tracking-[0.05px] block text-[#4A525E] font-semibold text-base" href="/Contactus">Contact Us <span className="text-teal-600 text-base p-1"></span>
                     </Link>
-                    <Link href='/Membership'  target='_blank' className="my-4 hover:tracking-[0.05px] block text-[#4A525E] font-semibold text-base">Membership <span className="text-teal-600 text-base p-1"></span>
+                    <Link href='/Membership' className="my-4 hover:tracking-[0.05px] block text-[#4A525E] font-semibold text-base">Membership <span className="text-teal-600 text-base p-1"></span>
                     </Link>
                 </div>
                 <div className="p-5 flex items-center justify-center">

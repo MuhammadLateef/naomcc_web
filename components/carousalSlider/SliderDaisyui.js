@@ -74,9 +74,9 @@ const SliderDaisyui = () => {
                 <div className="md:w-[55%] w-[100%] mx-auto md:pt-[8rem] pt-44 pb-3 flex flex-col justify-center">
 
                   <h2 className="text-white text-center text-[3vw] font-extrabold leading-tight">
-                    National Association Of Muslim <br /> Charitable Clinics
+                    National Association Of <br /> Muslim Charitable Clinics
                   </h2>
-                  <h2 className={`${serif4.className} text-[#94ED86] italic font-bold text-[1.5vw] leading-tight text-right px-[37px]`}>
+                  <h2 className={`${serif4.className} w-[92%] mx-auto text-[#94ED86] italic font-medium text-[1.5vw] leading-tight text-right pr-[66px]`}>
                   <i>Bridging the healthcare gap</i>
                   </h2>
                 </div>
@@ -87,9 +87,9 @@ const SliderDaisyui = () => {
                 <div className="md:w-[55%] w-[100%] mx-auto md:pt-[8rem] pt-44 pb-3 flex flex-col justify-center">
 
                   <h2 className="text-white text-center text-[3vw] font-extrabold leading-tight">
-                    National Association Of Muslim <br /> Charitable Clinics
+                    National Association Of <br /> Muslim Charitable Clinics
                   </h2>
-                  <h2 className={`${serif4.className} text-[#94ED86] italic font-bold text-[1.5vw] leading-tight text-right px-[37px]`}>
+                  <h2 className={`${serif4.className} w-[92%] mx-auto text-[#94ED86] italic font-medium text-[1.5vw] leading-tight text-right pr-[66px]`}>
                   <i>Bridging the healthcare gap</i>
                   </h2>
                 </div>
@@ -100,9 +100,9 @@ const SliderDaisyui = () => {
                 <div className="md:w-[55%] w-[100%] mx-auto md:pt-[8rem] pt-44 pb-3 flex flex-col justify-center">
 
                   <h2 className="text-white text-center text-[3vw] font-extrabold leading-tight">
-                    National Association Of Muslim <br /> Charitable Clinics
+                    National Association Of <br /> Muslim Charitable Clinics
                   </h2>
-                  <h2 className={`${serif4.className} text-[#94ED86] italic font-bold text-[1.5vw] leading-tight text-right px-[37px]`}>
+                  <h2 className={`${serif4.className} w-[92%] mx-auto text-[#94ED86] italic font-medium text-[1.5vw] leading-tight text-right pr-[66px]`}>
                   <i>Bridging the healthcare gap</i>
                   </h2>
                 </div>
@@ -113,9 +113,9 @@ const SliderDaisyui = () => {
                 <div className="md:w-[55%] w-[100%] mx-auto md:pt-[8rem] pt-44 pb-3 flex flex-col justify-center">
 
                   <h2 className="text-white text-center text-[3vw] font-extrabold leading-tight">
-                    National Association Of Muslim <br /> Charitable Clinics
+                    National Association Of <br /> Muslim Charitable Clinics
                   </h2>
-                  <h2 className={`${serif4.className} text-[#94ED86] italic font-bold text-[1.5vw] leading-tight text-right px-[37px]`}>
+                  <h2 className={`${serif4.className} w-[92%] mx-auto text-[#94ED86] italic font-medium text-[1.5vw] leading-tight text-right pr-[66px]`}>
                     <i>Bridging the healthcare gap</i>
                   </h2>
                 </div>

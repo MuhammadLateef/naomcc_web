@@ -18,7 +18,7 @@ const HeaderHtml = () => {
                             <li><Link href="/AboutUs">About Us</Link></li>
                             <li><Link href="/resources">Resources</Link></li>
                             <li>
-                            <a href='/Membership' className="">Membership</a>
+                            <Link href='/Membership' className="">Membership</Link>
                             </li>
                             <li><Link href="/News">News & Events</Link></li>
                             <li><Link href="Contactus">Contact Us</Link></li>

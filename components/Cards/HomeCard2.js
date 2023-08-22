@@ -27,9 +27,20 @@ const HomeCard2 = () => {
                         </div>
                     </div>
                     <Swiper
-                        //  spaceBetween={20}
-                        //  slidesPerView={6}                        
                         effect={"fade"}
+                        loop={true}
+                        autoplay={{
+                            delay: 2500,
+                            disableOnInteraction: false,
+                        }}
+                        pagination={{
+                            clickable: true,
+                        }}
+                        navigation={{
+                            nextEl: ".image-swiper-button-next",
+                            prevEl: ".image-swiper-button-prev",
+                            disabledClass: "swiper-button-disabled"
+                        }}
                         breakpoints={{
                             576: {
                                 // width: 576,
@@ -47,19 +58,6 @@ const HomeCard2 = () => {
                                 // width: 768,
                                 slidesPerView: 6,
                             },
-                        }}
-                        // centeredSlides={true}
-                        autoplay={{
-                            delay: 2500,
-                            disableOnInteraction: false,
-                        }}
-                        pagination={{
-                            clickable: true,
-                        }}
-                        navigation={{
-                            nextEl: ".image-swiper-button-next",
-                            prevEl: ".image-swiper-button-prev",
-                            disabledClass: "swiper-button-disabled"
                         }}
                         modules={[Autoplay,Navigation]}
                         className="mySwiper w-[80%] mx-auto h-auto flex items-center"
@@ -98,6 +96,39 @@ const HomeCard2 = () => {
                             </SwiperSlide>
                             <SwiperSlide className='h-[20vh]'>
                                 <div className="flex items-center justify-center">
+                                <a href="https://www.clarkstonhealth.org/" target='_blank'> <Image width={120} height={50} src="/Assets/images/slider2/image7.webp" alt='img' /> </a>
+                                </div>
+                            </SwiperSlide>
+                            <SwiperSlide className='h-[20vh]'>
+                                <div className="flex items-center justify-center">
+                                <a href="http://www.mcareapps.org/" target='_blank'> <Image width={120} height={50} src="/Assets/images/slider2/image8.png" alt='img' /> </a>
+                                </div>
+                            </SwiperSlide>
+                            <SwiperSlide className='h-[20vh]'>
+                                <div className="flex items-center justify-center">
+                                <a href="https://uhiclinic.org/" target='_blank'> <Image width={120} height={50} src="/Assets/images/slider2/image9.png" alt='img' /> </a>
+                                </div>
+                            </SwiperSlide>
+                            <SwiperSlide className='h-[20vh]'>
+                                <div className="flex items-center justify-center">
+                                <a href="https://www.medinahealthcare.org/" target='_blank'> <Image width={200} height={50} src="/Assets/images/slider2/image10.webp" alt='img' /> </a>
+                                </div>
+                            </SwiperSlide>
+                            <SwiperSlide className='h-[20vh]'>
+                                <div className="flex items-center justify-center">
+                                <a href="https://massclinic.org/" target='_blank'> <Image width={200} height={50} src="/Assets/images/slider2/image11.png" alt='img' /> </a>
+                                </div>
+                            </SwiperSlide>
+                            <SwiperSlide className='h-[20vh]'>
+                                <div className="flex items-center justify-center">
+                                <a href="https://www.multiculturalcenter.net/" target='_blank'> <Image width={200} height={50} src="/Assets/images/slider2/image12.png" alt='img' /> </a>
+                                </div>
+                            </SwiperSlide>
+
+
+                            {/* second turn */}
+                            <SwiperSlide className='h-[20vh]'>
+                                <div className="flex items-center justify-center">
                                 <a href="https://www.shifausahouston.org/" target='_blank'> <Image width={200} height={50} src="/Assets/images/slider2/image1.svg" alt='img' /> </a>
                                 </div>
                             </SwiperSlide>
@@ -128,7 +159,21 @@ const HomeCard2 = () => {
                                 <a href="#"> <Image width={200} height={50} src="/Assets/images/slider2/image4.svg" alt='img' /> </a>
                                 </div>
                             </SwiperSlide>
-                          
+                            <SwiperSlide className='h-[20vh]'>
+                                <div className="flex items-center justify-center">
+                                <a href="https://www.clarkstonhealth.org/" target='_blank'> <Image width={120} height={50} src="/Assets/images/slider2/image7.webp" alt='img' /> </a>
+                                </div>
+                            </SwiperSlide>
+                            <SwiperSlide className='h-[20vh]'>
+                                <div className="flex items-center justify-center">
+                                <a href="http://www.mcareapps.org/" target='_blank'> <Image width={120} height={50} src="/Assets/images/slider2/image8.png" alt='img' /> </a>
+                                </div>
+                            </SwiperSlide>
+                            <SwiperSlide className='h-[20vh]'>
+                                <div className="flex items-center justify-center">
+                                <a href="https://uhiclinic.org/" target='_blank'> <Image width={120} height={50} src="/Assets/images/slider2/image9.png" alt='img' /> </a>
+                                </div>
+                            </SwiperSlide>
                     </Swiper>
                 </div>
             </div>

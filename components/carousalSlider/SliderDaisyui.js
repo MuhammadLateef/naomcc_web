@@ -69,7 +69,7 @@ const SliderDaisyui = () => {
             modules={[Navigation]}
             className="mySwiper w-full md:h-[90vh] h-[65vh]"
           >
-            <SwiperSlide className='h-[100vh] bg-no-repeat bg-cover bg-[url("/Assets/images/Home-images/Slider-home1.png")]'>
+            <SwiperSlide className='h-[100vh] bg-no-repeat bg-cover bg-[url("/Assets/images/Home-images/Slider-home1.jpg")] inset-0 bg-black opacity-[90%]'>
               <div className="w-full flex justify-center">
                 <div className="md:w-[55%] w-[100%] mx-auto md:pt-[8rem] pt-44 pb-3 flex flex-col justify-center">
 
@@ -82,7 +82,7 @@ const SliderDaisyui = () => {
                 </div>
               </div>
             </SwiperSlide>
-            <SwiperSlide className='h-[100vh] bg-no-repeat bg-cover bg-[url("/Assets/images/Home-images/Slider-home1.png")]'>
+            <SwiperSlide className='h-[100vh] bg-no-repeat bg-cover bg-[url("/Assets/images/Home-images/Slider-home1.jpg")]'>
                             <div className="w-full flex justify-center">
                 <div className="md:w-[55%] w-[100%] mx-auto md:pt-[8rem] pt-44 pb-3 flex flex-col justify-center">
 
@@ -95,7 +95,7 @@ const SliderDaisyui = () => {
                 </div>
               </div>
             </SwiperSlide>
-            <SwiperSlide className='h-[100vh] bg-no-repeat bg-cover bg-[url("/Assets/images/Home-images/Slider-home1.png")]'>
+            <SwiperSlide className='h-[100vh] bg-no-repeat bg-cover bg-[url("/Assets/images/Home-images/Slider-home1.jpg")]'>
                             <div className="w-full flex justify-center">
                 <div className="md:w-[55%] w-[100%] mx-auto md:pt-[8rem] pt-44 pb-3 flex flex-col justify-center">
 
@@ -108,7 +108,7 @@ const SliderDaisyui = () => {
                 </div>
               </div>
             </SwiperSlide>
-            <SwiperSlide className='h-[100vh] bg-no-repeat bg-cover bg-[url("/Assets/images/Home-images/Slider-home1.png")]'>
+            <SwiperSlide className='h-[100vh] bg-no-repeat bg-cover bg-[url("/Assets/images/Home-images/Slider-home1.jpg")]'>
             <div className="w-full flex justify-center">
                 <div className="md:w-[55%] w-[100%] mx-auto md:pt-[8rem] pt-44 pb-3 flex flex-col justify-center">
 

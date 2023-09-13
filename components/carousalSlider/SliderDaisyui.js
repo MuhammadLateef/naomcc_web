@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import { Source_Serif_4 } from 'next/font/google'
+import { Source_Serif_4 } from "next/font/google";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 import Image from "next/image";
@@ -8,8 +8,9 @@ import Image from "next/image";
 import "swiper/css";
 // import required modules
 import { EffectFade, Autoplay, Navigation } from "swiper";
+import Link from "next/link";
 
-const serif4 = Source_Serif_4({ subsets: ['latin'] });
+const serif4 = Source_Serif_4({ subsets: ["latin"] });
 
 const SliderDaisyui = () => {
   return (
@@ -72,50 +73,54 @@ const SliderDaisyui = () => {
             <SwiperSlide className='h-[100vh] bg-no-repeat bg-cover bg-[url("/Assets/images/Home-images/Slider-home1.jpg")] inset-0 bg-black opacity-[90%]'>
               <div className="w-full flex justify-center">
                 <div className="md:w-[55%] w-[100%] mx-auto md:pt-[8rem] pt-44 pb-3 flex flex-col justify-center">
-
                   <h2 className="text-white text-center text-[3vw] font-extrabold leading-tight">
                     National Association Of <br /> Muslim Charitable Clinics
                   </h2>
-                  <h2 className={`${serif4.className} w-[92%] mx-auto text-[#94ED86] italic font-medium text-[1.5vw] leading-tight text-right pr-[66px]`}>
-                  <i>Bridging the healthcare gap</i>
+                  <h2
+                    className={`${serif4.className} w-[92%] mx-auto text-[#94ED86] italic font-medium text-[1.5vw] leading-tight text-right pr-[66px]`}
+                  >
+                    <i>Bridging the healthcare gap</i>
                   </h2>
                 </div>
               </div>
             </SwiperSlide>
             <SwiperSlide className='h-[100vh] bg-no-repeat bg-cover bg-[url("/Assets/images/Home-images/Slider-home1.jpg")]'>
-                            <div className="w-full flex justify-center">
+              <div className="w-full flex justify-center">
                 <div className="md:w-[55%] w-[100%] mx-auto md:pt-[8rem] pt-44 pb-3 flex flex-col justify-center">
-
                   <h2 className="text-white text-center text-[3vw] font-extrabold leading-tight">
                     National Association Of <br /> Muslim Charitable Clinics
                   </h2>
-                  <h2 className={`${serif4.className} w-[92%] mx-auto text-[#94ED86] italic font-medium text-[1.5vw] leading-tight text-right pr-[66px]`}>
-                  <i>Bridging the healthcare gap</i>
+                  <h2
+                    className={`${serif4.className} w-[92%] mx-auto text-[#94ED86] italic font-medium text-[1.5vw] leading-tight text-right pr-[66px]`}
+                  >
+                    <i>Bridging the healthcare gap</i>
                   </h2>
                 </div>
               </div>
             </SwiperSlide>
             <SwiperSlide className='h-[100vh] bg-no-repeat bg-cover bg-[url("/Assets/images/Home-images/Slider-home1.jpg")]'>
-                            <div className="w-full flex justify-center">
+              <div className="w-full flex justify-center">
                 <div className="md:w-[55%] w-[100%] mx-auto md:pt-[8rem] pt-44 pb-3 flex flex-col justify-center">
-
                   <h2 className="text-white text-center text-[3vw] font-extrabold leading-tight">
                     National Association Of <br /> Muslim Charitable Clinics
                   </h2>
-                  <h2 className={`${serif4.className} w-[92%] mx-auto text-[#94ED86] italic font-medium text-[1.5vw] leading-tight text-right pr-[66px]`}>
-                  <i>Bridging the healthcare gap</i>
+                  <h2
+                    className={`${serif4.className} w-[92%] mx-auto text-[#94ED86] italic font-medium text-[1.5vw] leading-tight text-right pr-[66px]`}
+                  >
+                    <i>Bridging the healthcare gap</i>
                   </h2>
                 </div>
               </div>
             </SwiperSlide>
             <SwiperSlide className='h-[100vh] bg-no-repeat bg-cover bg-[url("/Assets/images/Home-images/Slider-home1.jpg")]'>
-            <div className="w-full flex justify-center">
+              <div className="w-full flex justify-center">
                 <div className="md:w-[55%] w-[100%] mx-auto md:pt-[8rem] pt-44 pb-3 flex flex-col justify-center">
-
                   <h2 className="text-white text-center text-[3vw] font-extrabold leading-tight">
                     National Association Of <br /> Muslim Charitable Clinics
                   </h2>
-                  <h2 className={`${serif4.className} w-[92%] mx-auto text-[#94ED86] italic font-medium text-[1.5vw] leading-tight text-right pr-[66px]`}>
+                  <h2
+                    className={`${serif4.className} w-[92%] mx-auto text-[#94ED86] italic font-medium text-[1.5vw] leading-tight text-right pr-[66px]`}
+                  >
                     <i>Bridging the healthcare gap</i>
                   </h2>
                 </div>
@@ -156,8 +161,11 @@ const SliderDaisyui = () => {
               placeholder="City and State or Zip code"
               className="w-[90%] flex-1 md:px-[30px] px-[10px] py-[11px] rounded-3xl border border-[#A4A4A4] bg-[#F4F4F4] placeholder:text-[#A9A9A9] md:placeholder:text-[16px] :placeholder:text-[14px]"
             />
-            <button class="absolute border right-0 bg-[#498240] hover:border hover:bg-[#F4F4F4] hover:border-[#498240] hover:text-[#498240] transition duration-300 md:py-[11px] py-[10px] md:px-[40px] px-[20px] rounded-3xl text-white">
-              Find
+            <button
+              
+              class="absolute border right-0 bg-[#498240] hover:border hover:bg-[#F4F4F4] hover:border-[#498240] hover:text-[#498240] transition duration-300 md:py-[11px] py-[10px] md:px-[40px] px-[20px] rounded-3xl text-white"
+            >
+              <Link href="/Coming">Find</Link>
             </button>
           </div>
         </div>

@@ -84,11 +84,7 @@ const HomeCard2 = () => {
                                 </div>
                             </SwiperSlide>
                            
-                            <SwiperSlide className='h-[20vh] flex items-center justify-center w-full'>
-                                <div className="w-full flex items-center justify-center">
-                                <a href="https://www.mercy.net/" target='_blank'> <Image width={200} height={50} src="/Assets/images/slider2/image6.svg" alt='img' /> </a>
-                                </div>
-                            </SwiperSlide>
+                           
                             <SwiperSlide className='h-[20vh]'>
                                 <div className="flex items-center justify-center">
                                 <a href="#"> <Image width={200} height={50} src="/Assets/images/slider2/image4.svg" alt='img' /> </a>
@@ -121,7 +117,12 @@ const HomeCard2 = () => {
                             </SwiperSlide>
                             <SwiperSlide className='h-[20vh]'>
                                 <div className="flex items-center justify-center">
-                                <a href="https://www.ecicfreeclinic.org/" target='_blank'> <Image width={100} height={50} src="/Assets/images/slider2/image13.png" alt='img' /> </a>
+                                <a href="https://www.ecicfreeclinic.org/" target='_blank'> <Image width={100} height={50} style={{ mixBlendMode: "color-burn" }} src="/Assets/images/slider2/image13.png" alt='img' /> </a>
+                                </div>
+                            </SwiperSlide>
+                            <SwiperSlide className='h-[20vh]'>
+                                <div className="flex items-center justify-center">
+                                <a href="https://www.mariamclinic.org/" target='_blank'> <Image width={100} height={50} style={{ mixBlendMode: "color-burn" }} src="/Assets/images/slider2/image14.webp" alt='img' /> </a>
                                 </div>
                             </SwiperSlide>
 
@@ -149,11 +150,7 @@ const HomeCard2 = () => {
                                 </div>
                             </SwiperSlide>
                            
-                            <SwiperSlide className='h-[20vh] flex items-center justify-center w-full'>
-                                <div className="w-full flex items-center justify-center">
-                                <a href="https://www.mercy.net/" target='_blank'> <Image width={200} height={50} src="/Assets/images/slider2/image6.svg" alt='img' /> </a>
-                                </div>
-                            </SwiperSlide>
+                           
                             <SwiperSlide className='h-[20vh]'>
                                 <div className="flex items-center justify-center">
                                 <a href="#"> <Image width={200} height={50} src="/Assets/images/slider2/image4.svg" alt='img' /> </a>
@@ -191,7 +188,12 @@ const HomeCard2 = () => {
                             </SwiperSlide>
                             <SwiperSlide className='h-[20vh]'>
                                 <div className="flex items-center justify-center">
-                                <a href="https://www.ecicfreeclinic.org/" target='_blank'> <Image width={100} height={50} src="/Assets/images/slider2/image13.png" alt='img' /> </a>
+                                <a href="https://www.ecicfreeclinic.org/" target='_blank'> <Image width={100} height={50} style={{ mixBlendMode: "color-burn" }} src="/Assets/images/slider2/image13.png" alt='img' /> </a>
+                                </div>
+                            </SwiperSlide>
+                            <SwiperSlide className='h-[20vh]'>
+                                <div className="flex items-center justify-center">
+                                <a href="https://www.mariamclinic.org/" target='_blank'> <Image width={100} height={50} style={{ mixBlendMode: "color-burn" }} src="/Assets/images/slider2/image14.webp" alt='img' /> </a>
                                 </div>
                             </SwiperSlide>
                     </Swiper>

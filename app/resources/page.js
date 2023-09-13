@@ -19,9 +19,9 @@ const page = () => {
                         <div className="flex items-center">
                             <a href="https://www.assalamclinic.com/" target='_blank'> <Image width={200} height={50} src="/Assets/images/slider2/image3.svg" alt='img' /> </a>
                         </div>
-                        <div className="flex items-center">
+                        {/* <div className="flex items-center">
                             <a href="https://www.mercy.net/" target='_blank'> <Image width={200} height={50} src="/Assets/images/slider2/image6.svg" alt='img' /> </a>
-                        </div>
+                        </div> */}
                     </div>
                     <div className="sm:w-[35%] mx-auto flex sm:flex-row flex-col justify-around py-[50px]">
                         <div className="flex items-center">
